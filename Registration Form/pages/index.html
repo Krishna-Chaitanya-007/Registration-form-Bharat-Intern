@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body style="height: 100%; width: 100%; background-image: image(url('../assets/images/cropped-HD-wallpaper-neon-design-green-leaves-leaves-nature-neon-lights'));">
+    <section>
+        <div class="form" style="position: relative; left: 37.5%; border-radius: 5px; width: 25%; height: 25%; min-width: 25%; background-color: rgb(198, 198, 191); margin-top: 174px;"> 
+            <div class="outerbox" style="padding: 10px; font-size: x-large; margin-left: 20%; margin-right: 20%;"> <strong>Registration Form</strong> </div>
+            <form method="post" action="/register"> 
+                <div class="username" style="padding: 5px; margin-left: 20px; margin-right: 20px;">
+                    <label for="username">Username</label>
+                </div>
+                <div class="username" style="padding: 5px; margin-left: 20px; margin-right: 20px;">
+                    <input class="form-control w-100" type="text" name="username" id="username">
+                </div>
+                <div class="email" style="padding: 5px; margin-left: 20px; margin-right: 20px;">
+                    <label for="email">Email address</label>
+                </div>
+                <div class="email" style="padding: 5px; margin-left: 20px; margin-right: 20px;">
+                    <input class="form-control w-100" type="text" name="email" id="email">
+                </div>
+                <div class="password" style="padding: 5px; margin-left: 20px; margin-right: 20px;">
+                    <label for="password">Password</label>
+                </div>
+                <div class="password" style="padding: 5px; margin-left: 20px; margin-right: 20px;">
+                    <input type="password" class="form-control w-100" name="password" id="password">
+                </div>
+                <div class="username" style="padding: 5px; padding-bottom: 25px; margin-left: 20px; margin-right: 20px; margin-top: 5px;">
+                    <button type="submit" class="btn btn-primary"> Register </button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

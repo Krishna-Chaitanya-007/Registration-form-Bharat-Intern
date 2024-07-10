@@ -1,0 +1,10 @@
+body{
+    background-image: url('../assets/images/cropped-HD-wallpaper-neon-design-green-leaves-leaves-nature-neon-lights');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%; 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
